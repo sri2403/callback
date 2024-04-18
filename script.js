@@ -1,7 +1,8 @@
 function displayCountdown(count, next) {
     var countdownElement = document.getElementById('countdown');
-    
+    var text=document.getElementById("text");
     setTimeout(function () {
+      text.innerHTML="wait";
       countdownElement.innerHTML = count;
       setTimeout(function () {
         countdownElement.innerHTML = '';
