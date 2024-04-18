@@ -1,5 +1,6 @@
 function displayCountdown(count, next) {
     var countdownElement = document.getElementById('countdown');
+    
     setTimeout(function () {
       countdownElement.innerHTML = count;
       setTimeout(function () {
